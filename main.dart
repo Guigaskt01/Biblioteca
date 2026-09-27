@@ -1,12 +1,10 @@
-import '../models/item_biblioteca.dart';
-import '../models/livro.dart';
-import '../models/revista.dart';
-import '../models/usuario.dart';
+import 'models/item_biblioteca.dart';
+import 'models/livro.dart';
+import 'models/revista.dart';
+import 'models/usuario.dart';
 
 void main() {
-  
-print(
-"""
+  print("""
 ========================================
        SISTEMA DE BIBLIOTECA
 ========================================
@@ -23,5 +21,4 @@ print(
 
 Escolha uma opção:
 """);
-
 }
