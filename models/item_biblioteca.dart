@@ -1,8 +1,10 @@
 abstract class ItemBiblioteca {
-  int id = 0;
-  String titulo = '';
-  int anoPublicacao = 0; 
+  int id;
+  String titulo;
+  int anoPublicacao; 
   
+  //Construtor
+  ItemBiblioteca(this.id, this.titulo, this.anoPublicacao);
   
   void exibirInformacoes() {
   }

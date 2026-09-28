@@ -1,8 +1,11 @@
 class Usuario {
-  int id = 0;
-  String nome = '';
-  String email = '';
+  int id;
+  String nome;
+  String email;
   int _quantidadeEmprestimos = 0;
+
+  //Construtor
+  Usuario(this.id, this.nome, this.email);
 
   //Regra de negócio 4
 
